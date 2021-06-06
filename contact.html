@@ -72,36 +72,20 @@
     
       <!-- #speciality end -->
 
-      <section id="bar" class="bg-white pt-0 pb-0">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <hr class="hr-bar">
-            </div>
-          </div>
-        </div>
-      </section>
       <!-- #bar end -->
        <!-- Feature #1 ============================================= -->
        <section id="speciality" class="section feature feature-3 bg-white pb-80">
         <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-12 col-lg-12">
-              <div class="heading heading-1 text-center">
-                <h2 class="heading-title">FAQ</h2>
-              </div>
-            </div>
-          </div>
+         
           <div class="row">
             <!-- Panel #1 -->
             <div class="col-12 col-md-12 col-lg-12">
               <div class="feature-panel">
                 
                 <div class="feature-content">
-                  <h3>what is teletherapy?</h3>
-                  <p>"Teletherapy is the online delivery of speech, occupational, and mental health therapy services via high-resolution, live video conferencing."
-                    Online therapy, e-therapy, or video therapy, is therapy delivered through a virtual platform via a computer or mobile device. 
-                    Goode and Shinkle (2019)</p>
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52655.400054122765!2d35.81080533833091!3d34.42770755686252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1521f6ab9db89d33%3A0x323c52527dde8578!2sTripoli!5e0!3m2!1sen!2slb!4v1622997992130!5m2!1sen!2slb" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 </div>
               </div>
               <!-- .feature-panel end -->
@@ -109,111 +93,128 @@
             <!-- .col-md-4 end -->
 
             <!-- Panel #2 -->
-            <div class="col-12 col-md-12 col-lg-12">
-              <div class="feature-panel">
-                
-                <div class="feature-content">
-                  <h3>How to access sessions?</h3>
-                  <p>Patients or Parents can access through a video link sent through whatsapp or email.</p>
-                </div>
-              </div>
+      
               <!-- .feature-panel end -->
             </div>
-            <!-- .col-md-4 end -->
-            <div class="col-12 col-md-12 col-lg-12">
-              <div class="feature-panel">
-                
-                <div class="feature-content">
-                  <h3>Assessment Process</h3>
-                  <p>After conducting a free consultation session, with medical information provided, therapists will test the patient and provide assessment sessions for around 2 to 4 sessions. As a result, therapist can fully understand and diagnos the patient's needs and produce a personalzied therapy plan. Reports will be provided to start conducting virtual therapy sessions. </p>
-                </div>
-              </div>
-              <!-- .feature-panel end -->
-            </div>
-            <div class="col-12 col-md-12 col-lg-12">
-              <div class="feature-panel">
-                
-                <div class="feature-content">
-                  <h3>Cancellation Policy</h3>
-                  <p>A minimum of 24 hours notice for appointment cancellations or rebooking is required.</p>
-                </div>
-              </div>
-              <!-- .feature-panel end -->
-            </div>
-            <div class="col-12 col-md-12 col-lg-12">
-              <div class="feature-panel">
-                
-                <div class="feature-content">
-                  <h3>Video/Record Policy</h3>
-                  <p>The STEMS Clinic involves the use of video online 
-                    therapy. Please note that no material or video will be given to a third party. Only you and the therapists assigned will have access to them.</p>
-                </div>
-              </div>
-              <!-- .feature-panel end -->
-            </div>
+            
     
 
           </div>
           <!-- .row end -->
-        </div>
+  
         <!-- .container end -->
       </section>
       <!-- #speciality end -->
+
+           <!-- Action ============================================= -->
+           <section id="consultation" class="section feature feature-2 bg-gray">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                  <div class="feature-panel">
+                    <div class="feature-content">
+                      <h3>Free  Consultation</h3>
+                      <p class="mb-30">We provide a free medical consultation for our patients, Once you submit the request, our office will contact you within one business day to schedule your appointment.</p>
+                      <ul>
+                        <li>Explain your health concerns.</li>
+                        <li>A Specialist will answer your questions.</li>
+                        <li>Review your case documents.</li>
+                        <li>Follow up your medical condition.</li>
+                       
+                            <form method="post">
+                    
+                    
+                                <input type="email" class="form-control" name="Email"  required="required" placeholder="Enter your email"><div class="row widget-boxes text-center" style="background-color: white;"></div>
+                                <input type="submit" value="Subscribe Our email" name="submit" class="btn btn--primary btn--block text-center" style="width:200px ;">
+                                
+                              </form>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- .feature-panel end -->
+                </div>
+                <!-- .col-md-6 end -->
+                <div class="col-12 col-md-6 col-lg-5 offset-lg-1" id="goto">
+                  <div class="form-wrapper">
+                    <div class="heading">
+                      <h3 class="heading-title">Request a Free Consultation</h3>
+                    </div>
+                    <!-- .form-group end -->
+                    <form method="post" action="assets/php/contact.php" class="contactForm mb-0">
+                      <div id="result" class="contact-result"></div>
+                      <div class="form-group">
+                        <label for="name">Your Name*</label>
+                        <input type="text" class="form-control" name="name" id="name" required="required">
+                      </div>
+    
+                      <div class="form-group">
+                        <label for="speciality">Are you looking for  therapy for your own or for a child?</label>
+                        <div class="select-form">
+                          <i class="fa fa-caret-down"></i>
+                          <select name="speciality" id="speciality" class="form-control">
+                            <option value="0">For myself</option>
+                            <option value="1">For a Child </option>
+                            
+                          </select>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="speciality">What are your  concerns?</label>
+                        <div class="select-form">
+                          <i class="fa fa-caret-down"></i>
+                          <select name="speciality" id="speciality" class="form-control">
+                            <option value="0">Concern 1</option>
+                            <option value="1">Concern 2</option>
+                            <option value="1">Concern 3</option>
+                            <option value="1">Concern 4</option>
+                            <option value="1">Concern 5</option>
+                            <option value="1">Concern 6</option>
+                          </select>
+                        </div>
+                      </div>
+                      <!-- .form-group end -->
+                      <div class="form-group">
+                        <label for="name">Your Phone*</label>
+                        <input type="text" class="form-control" name="phone" id="phone" required="required">
+                      </div>
+                      <div class="form-group">
+                        <label for="name">Choose a Date </label>
+                        <input type="date" class="form-control" name="date" id="phone" required="required">
+                      </div>
+                      <div class="form-group">
+                        <label for="speciality">Your prefered  time slot</label>
+                        <div class="select-form">
+                          <i class="fa fa-caret-down"></i>
+                          <select name="speciality" id="speciality" class="form-control">
+                            <option value="0">From 8 To 11</option>
+                            <option value="1">From 12 To 4</option>
+                            
+                          </select>
+                        </div>
+                      </div>
+                      
+                      <!-- .form-group end -->
+                     
+                      <!-- .form-group end -->
+              
+                      <div class="form-group">
+                        <input type="submit" value="Request a Free Consultation" name="submit" class="btn btn--primary btn--block">
+                      </div>
+                      <!-- .form-group end -->
+                      <div class="agreement">Available for limited time.</div>
+                    </form>
+                  </div>
+                </div>
+                <!-- .col-md-6 end -->
+    
+              </div>
+              <!-- .row end -->
+            </div>
+            <!-- .container end -->
+          </section>
+          <!-- #consultation end -->
       <!-- Feature #2 ============================================= -->
-      <section id="feature2" class="section feature feature-left bg-white">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-6">
-              <div class="heading heading-1 mb-50 mt-30">
-                <h2 class="heading-title ">Our Services</h2>
-                <p class="heading-desc">The STEMS Clinic identifies and treats nearly all challenges to all age groups. </p>
-              </div>
-              <div class="feature-panel">
-                <div class="feature-img">
-                  <img src="assets/images/icons/icons8-trust-100.png" alt="about"/ style="width:50PX">
-                </div>
-                <div class="feature-content">
-                  <h3>We see and feel what you need</h3>
-                  <p>Safe, effective</p>
-                  <p>Fun Teletherapy Sessions Shaped For You </p>
-                </div>
-              </div>
-              <!-- .feature-panel end -->
-              <div class="feature-panel">
-                <div class="feature-img">
-                  <img src="assets/images/icons/icons8-query-inner-join-100.png" alt="about" style="width:50PX"/>
-                </div>
-                <div class="feature-content">
-                  <h3>You deserve to communicate with confidence. 
-                     </h3>
-                  <p>Join The STEM'S exceptional Teletherapy</p>
-                </div>
-              </div>
-              <!-- .feature-panel end -->
-              <div class="col-12 col-md col-lg-6">
-                <div class="hero-action" style="margin-left: 70px;margin-top: 30px;">
-                  <a href="#goto" class="btn btn--primary" data-scroll="scrollTo" style="width: 230px;">Book Your Free Consultation</a>
-                </div>
-              </div>
-              <br>
-            </div>
-            <!-- .col-md-6 end -->
-            <div class="col-12 col-md-6 col-lg-6 wow slideInRight" data-wow-duration="2s" data-wow-delay=".1s" >
-            
-                <video controls autoplay loop style="width:100%;margin-top: 100px;" >
-                  <source src="assets/images/features/production ID_4494801_1.mp4" type="video/mp4">
-               
-                </video>
-                   
-            </div>
-            <!-- .col-md-6 end -->
-            
-          </div>
-          <!-- .row end -->
-        </div>
-        <!-- .container end -->
-      </section>
-      <!-- #feature2 end -->
 
       <!-- Testimonial ============================================= -->
       
