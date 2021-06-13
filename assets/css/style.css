@@ -1750,7 +1750,16 @@ li.open > a:focus {
 
 @media only screen and (max-width: 767px) {
   .hero {
-    background-image: none !important;
+    background-image: url(../images/background/new-head.jpg);
+    color: White;
+  }
+  .hero span{
+    color: White
+  }
+
+
+  .hero .hero-headline{
+    color:white
   }
   .hero .hero-action .btn {
     display: block;
@@ -2755,4 +2764,7 @@ color:#0070cd;
 }
 .text-center1{
   font-size:25px
+}
+.numbbb{
+  color:#E7995D
 }
