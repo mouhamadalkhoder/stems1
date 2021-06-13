@@ -114,21 +114,15 @@
                   <div class="feature-panel">
                     <div class="feature-content">
                       <h3>Free  Consultation</h3>
-                      <p class="mb-30">We provide a free medical consultation for our patients, Once you submit the request, our office will contact you within one business day to schedule your appointment.</p>
+                      <p class="mb-30">We provide an inital free medical  consultation for our patients.
+                        Once you submit your request, STEMS team will contact you to schedule your first  appointment.
+                      </p>
                       <ul>
                         <li>Explain your health concerns.</li>
                         <li>A Specialist will answer your questions.</li>
                         <li>Review your case documents.</li>
                         <li>Follow up your medical condition.</li>
-                       
-                            <form method="post">
-                    
-                    
-                                <input type="email" class="form-control" name="Email"  required="required" placeholder="Enter your email"><div class="row widget-boxes text-center" style="background-color: white;"></div>
-                                <input type="submit" value="Subscribe Our email" name="submit" class="btn btn--primary btn--block text-center" style="width:200px ;">
-                                
-                              </form>
-                        </li>
+                        <li>Check your therapy results</li>
                       </ul>
                     </div>
                   </div>
@@ -141,7 +135,8 @@
                       <h3 class="heading-title">Request a Free Consultation</h3>
                     </div>
                     <!-- .form-group end -->
-                    <form method="post" action="assets/php/contact.php" class="contactForm mb-0">
+                    <form action="https://formsubmit.co/mouhamadhaydar052@gmail.com" method="POST">
+                  
                       <div id="result" class="contact-result"></div>
                       <div class="form-group">
                         <label for="name">Your Name*</label>
@@ -149,12 +144,12 @@
                       </div>
     
                       <div class="form-group">
-                        <label for="speciality">Are you looking for  therapy for your own or for a child?</label>
+                        <label for="speciality">Are you looking for speech therapy for your own or for a child?</label>
                         <div class="select-form">
                           <i class="fa fa-caret-down"></i>
-                          <select name="speciality" id="speciality" class="form-control">
-                            <option value="0">For myself</option>
-                            <option value="1">For a Child </option>
+                          <select name="for who?" id="speciality" class="form-control">
+                            <option value="For myself">For myself</option>
+                            <option value="For a Child">For a Child </option>
                             
                           </select>
                         </div>
@@ -162,20 +157,27 @@
                       <div class="form-group">
                         <label for="speciality">What are your  concerns?</label>
                         <div class="select-form">
-                          <i class="fa fa-caret-down"></i>
-                          <select name="speciality" id="speciality" class="form-control">
-                            <option value="0">Concern 1</option>
-                            <option value="1">Concern 2</option>
-                            <option value="1">Concern 3</option>
-                            <option value="1">Concern 4</option>
-                            <option value="1">Concern 5</option>
-                            <option value="1">Concern 6</option>
-                          </select>
+                       
+                          concern 1 <input type="checkbox" name="first concern" value="concern 1" id="">  &nbsp;
+                          concern 2 <input type="checkbox" name="second concern" value="concern 2" id="">  &nbsp;
+                          concern 3 <input type="checkbox" name="third concern" value="concern 3" id="">  &nbsp;
+                          <br><br>
+                          concern 4 <input type="checkbox" name="fourth concern" value="concern 4" id="">  &nbsp;
+                          concern 5 <input type="checkbox" name="fith concern" value="concern 5"id="">  &nbsp;
+                          <br> <br>
+                          <!-- <select name="concern" id="speciality" class="form-control">
+                            <option value="Concern 1">Concern 1</option>
+                            <option value="Concern 2">Concern 2</option>
+                            <option value="Concern 3">Concern 3</option>
+                            <option value="Concern 4">Concern 4</option>
+                            <option value="Concern 5">Concern 5</option>
+                            <option value="Concern 6">Concern 6</option>
+                          </select> -->
                         </div>
                       </div>
                       <!-- .form-group end -->
                       <div class="form-group">
-                        <label for="name">Your Phone*</label>
+                        <label for="phone">Your Phone*</label>
                         <input type="text" class="form-control" name="phone" id="phone" required="required">
                       </div>
                       <div class="form-group">
@@ -187,8 +189,8 @@
                         <div class="select-form">
                           <i class="fa fa-caret-down"></i>
                           <select name="speciality" id="speciality" class="form-control">
-                            <option value="0">From 8 To 11</option>
-                            <option value="1">From 12 To 4</option>
+                            <option value="From 8 To 11">From 8 To 11</option>
+                            <option value="From 12 To 4">From 12 To 4</option>
                             
                           </select>
                         </div>
@@ -197,7 +199,9 @@
                       <!-- .form-group end -->
                      
                       <!-- .form-group end -->
-              
+                      
+                      <input type="hidden" name="_next" value="https://google.com" /> 
+                      <input type="hidden" name="_captcha" value="false" />
                       <div class="form-group">
                         <input type="submit" value="Request a Free Consultation" name="submit" class="btn btn--primary btn--block">
                       </div>
