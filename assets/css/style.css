@@ -157,6 +157,7 @@ h3 {
 .h4,
 h4 {
   font-size: 18px;
+  color: #444444;
 }
 
 .h5,
@@ -167,6 +168,7 @@ h5 {
 .h6,
 h6 {
   font-size: 14px;
+  color: #999999;
 }
 
 p {
@@ -2789,5 +2791,18 @@ color:#0070cd;
 @media only screen and (max-width: 600px) {
  .c1 {
     text-align: center;
+
   }
 }
+
+
+#doctors{
+  margin-top:-100px
+}
+
+@media only screen and (max-width: 600px) {
+  .c2 {
+     margin-top: 40px;
+   }
+ }
+ 
