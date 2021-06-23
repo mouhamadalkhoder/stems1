@@ -2032,7 +2032,7 @@ li.open > a:focus {
 }
 .feature-left .feature-panel .feature-content p {
   font-size: 14px;
-  max-width: 300px;
+  
 }
 
 .img-shadow {
@@ -2766,11 +2766,28 @@ color:#0070cd;
   font-size:25px
 }
 .numbbb{
-  color:#E7995D
+  color:#00549A
 }
 
 #feature10{
   margin-top:-150PX;
   text-align:justify;
   line-height: 80px;
+}
+
+
+
+
+.why{
+  margin-top: 500px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+ .c1 {
+    text-align: center;
+  }
 }
