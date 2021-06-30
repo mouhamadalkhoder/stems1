@@ -1752,9 +1752,10 @@ li.open > a:focus {
 
 @media only screen and (max-width: 767px) {
   .hero {
-    background-image: url(../images/background/new-head.jpg);
+    background-image: url(../images/demos/Stems\ HeadersII-01.png);
     color: White;
   }
+  
   .hero span{
     color: White
   }
@@ -2806,3 +2807,10 @@ color:#0070cd;
    }
  }
  
+
+
+
+
+
+
+
