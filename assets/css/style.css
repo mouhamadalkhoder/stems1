@@ -1466,6 +1466,7 @@ label {
   }
   .heading .heading-title {
     font-size: 30px;
+    margin-top: 50px;
   }
 }
 /*------------------------------------*\
@@ -1783,7 +1784,7 @@ li.open > a:focus {
 }
 @media only screen and (max-width: 991px) {
   .hero {
-    padding-top: 240px;
+    padding-top: 140px;
   }
   .hero .row-content {
     padding-top: 0;
@@ -1792,6 +1793,10 @@ li.open > a:focus {
     padding-top: 0;
     font-size: 28px;
     line-height: 33px;
+    color:#00549a
+  }
+  .hero .hero-headline span{
+    color:#00549a
   }
   .hero .hero-bio {
     font-size: 15px;
@@ -2801,14 +2806,12 @@ color:#0070cd;
   margin-top:-100px
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
   .c2 {
-     margin-top: 40px;
+     margin-top: 60px;
    }
  }
  
-
-
 
 
 
