@@ -1829,7 +1829,7 @@ li.open > a:focus {
 \*------------------------------------*/
 .testimonial-panel {
   padding-top: 95px;
-  background: #ffffff;
+ 
   padding: 65px 40px 40px 40px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -2666,7 +2666,7 @@ li.open > a:focus {
 
 .testimonial-panel1 {
   padding-top: 95px;
-  background: #ffffff;
+
   padding: 65px 40px 40px 40px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -2832,3 +2832,7 @@ color:#0070cd;
    }
  }
  
+.bg-gray1{
+  padding-bottom: 0px;
+  background-color: none;
+}
