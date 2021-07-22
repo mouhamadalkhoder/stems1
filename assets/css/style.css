@@ -2836,3 +2836,11 @@ color:#0070cd;
   padding-bottom: 0px;
   background-color: none;
 }
+
+
+@media only screen and (max-width: 790px) {
+  .map1{
+    margin-right:25px
+   }
+ }
+ 
