@@ -2840,7 +2840,7 @@ color:#0070cd;
 
 @media only screen and (max-width: 790px) {
   .map1{
-    margin-right:25px
+    margin-right:8px
    }
  }
  @media only screen and (min-width: 995px) {
@@ -2856,4 +2856,7 @@ color:#0070cd;
    width:600px
    }
  }
- 
+.t2{
+  text-align:center;
+  margin-top: 30px;
+}
