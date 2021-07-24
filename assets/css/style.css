@@ -2845,7 +2845,15 @@ color:#0070cd;
  }
  @media only screen and (min-width: 995px) {
   .i2{
-   margin:0px 80px 0px 80px
+   margin:0px 40px 0px 40px;
+   font-size: 20px
+   }
+ }
+ 
+
+ @media only screen and (min-width: 995px) {
+  .i4 img{
+   width:600px
    }
  }
  
